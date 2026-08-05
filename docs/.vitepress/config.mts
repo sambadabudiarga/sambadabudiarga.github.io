@@ -51,7 +51,7 @@ export default defineConfig({
       ],
     },
     editLink: {
-      pattern: 'https://github.com/USERNAME/REPONAME/edit/main/docs/:path',
+      pattern: 'https://github.com/sambadabudiarga/sambadabudiarga.github.io/edit/main/docs/:path',
       text: 'Edit this page',
     },
     search: {
