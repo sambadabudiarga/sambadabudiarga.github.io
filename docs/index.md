@@ -2,24 +2,33 @@
 
 Production troubleshooting, root cause analysis, and operational lessons from real-world systems.
 
-> A collection of production investigations, engineering notes, runbooks, and operational lessons learned from real-world systems.
+A collection of production investigations, engineering notes, runbooks, and lessons learned from systems I've worked with over the past decade.
 
 ---
 
-## Recent Incidents
+## Areas of Investigation
 
-*No incidents published yet.*
+- **API & Backend** — Issues in Laravel, Node.js, or custom API logic. Tracing failures from request to response.
+- **Infrastructure & Linux** — Docker, Nginx, server configuration, OS migration. The layer between the code and the hardware.
+- **Database & Storage** — MySQL, SQL Server, PostgreSQL. Locks, replication, corruption, and queries that don't scale.
+- **Integrations** — Zoho CRM, Xero, Twilio, WhatsApp. Webhooks, rate limits, silent sync failures, undocumented behavior.
+- **Performance & Reliability** — Bottlenecks, memory usage, slow deployments, and measuring what matters.
+- **Security & Access** — SSL/TLS, authentication misconfigurations, credential leaks, access control gaps.
+- **CI/CD & Deployment** — Pipeline failures, artifact handling, environment drift, and the difference between "it works locally" and "it works in production."
 
-## Featured Case Studies
+---
 
-*No case studies published yet.*
+## The Notebook
 
-## Latest Technical Notes
+- [Incident Library](/notebook/incidents/) — Full investigations with timeline, evidence, root cause, and prevention.
+- [Case Studies](/notebook/case-studies/) — Long-form engineering reports covering migrations, observability builds, and large-scale debugging.
+- [Technical Notes](/notebook/notes/) — Explanations of how things work. Not incident-specific.
+- [Runbooks](/notebook/runbooks/) — Operational checklists for deployment, recovery, rollback, and escalation.
+- [Architecture Notes](/notebook/architecture/) — System design documentation and decision records.
+- [Documentation Samples](/notebook/documentation/) — Examples of engineering documents: incident reports, migration plans, release notes.
 
-*No notes published yet.*
+---
 
 ## About This Notebook
 
-This is a structured collection of production investigations, debugging methodology, and operational knowledge. Every entry documents what happened, what was found, and what was learned.
-
-The goal is to demonstrate systematic thinking, evidence-based investigation, and clear technical communication.
+This notebook records what I've learned from investigating production incidents across the stack. Every entry documents what happened, what was found, and what was learned — not to show off, but because writing it down makes the next investigation faster, and sharing it makes the team stronger.
