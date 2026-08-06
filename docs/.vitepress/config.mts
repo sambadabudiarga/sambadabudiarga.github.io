@@ -23,6 +23,16 @@ export default defineConfig({
       { text: 'Uses', link: '/uses' },
     ],
     sidebar: {
+      '/experience/': [
+        {
+          text: 'Experience',
+          items: [
+            { text: 'Overview', link: '/experience/' },
+            { text: 'Resume', link: '/experience/resume' },
+            { text: 'Talks & Mentoring', link: '/experience/talks' },
+          ],
+        },
+      ],
       '/notebook/incidents/': [
         {
           text: 'Incident Library',
