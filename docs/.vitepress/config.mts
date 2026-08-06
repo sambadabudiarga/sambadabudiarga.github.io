@@ -29,7 +29,7 @@ export default defineConfig({
           items: [
             { text: 'Overview', link: '/experience/' },
             { text: 'Resume', link: '/experience/resume' },
-            { text: 'Talks & Mentoring', link: '/experience/talks' },
+            { text: 'Mentoring', link: '/experience/mentoring' },
           ],
         },
       ],

@@ -1,3 +1,0 @@
-# Talks & Mentoring
-
-Coming soon.
