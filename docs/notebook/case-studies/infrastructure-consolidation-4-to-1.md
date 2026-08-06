@@ -67,7 +67,7 @@ We apologized to affected users and applied the license as soon as it arrived. T
 
 The backend was the hardest. Server D ran PHP 8.2 on Apache, while Server A ran PHP 7.4 — incompatible. We couldn't simply move the files. Instead, I set up a **Docker container** on Server A that mirrored Server D's environment: Apache with PHP 8.2, matching extensions, matching configuration.
 
-The migration happened over a weekend. Files were rsynced into the new container, and the service was brought up behind the existing Nginx reverse proxy. The container handled the legacy backend cleanly, and the service continued running as if nothing had changed.
+The migration happened over a weekend. Files were rsynced into the new container. The container ran Apache serving PHP via PHP-FPM — matching the original server D stack exactly. The service came up behind the existing Nginx reverse proxy on the host, which routed traffic to the container's Apache.
 
 ## Results
 
