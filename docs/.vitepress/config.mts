@@ -20,7 +20,6 @@ export default defineConfig({
       { text: 'Notebook', link: '/notebook/' },
       { text: 'Experience', link: '/experience/' },
       { text: 'Contact', link: '/contact' },
-      { text: 'Uses', link: '/uses' },
     ],
     sidebar: {
       '/experience/': [
