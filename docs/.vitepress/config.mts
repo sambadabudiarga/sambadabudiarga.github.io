@@ -16,6 +16,7 @@ export default defineConfig({
     logo: '/logo.svg',
     nav: [
       { text: 'Home', link: '/' },
+      { text: 'About', link: '/about' },
       { text: 'Notebook', link: '/notebook/' },
       { text: 'Experience', link: '/experience/' },
       { text: 'Contact', link: '/contact' },
@@ -49,10 +50,6 @@ export default defineConfig({
           ],
         },
       ],
-    },
-    editLink: {
-      pattern: 'https://github.com/sambadabudiarga/sambadabudiarga.github.io/edit/main/docs/:path',
-      text: 'Edit this page',
     },
     search: {
       provider: 'local',
