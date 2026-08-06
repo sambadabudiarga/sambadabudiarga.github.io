@@ -57,15 +57,13 @@ The shift-start action involves uploading an image (multipart form-data, enctype
 
 ## Timeline
 
-- **Saturday afternoon** — Migration of HR app completed. Manual smoke test passed (login, navigation, basic operations).
-- **Saturday evening** — Customer reports shift-start failure. Loading spinner stuck.
-- **Saturday (continuation)** — Switched HR app back to old server. Customer could work again. Minimal downtime.
-- **Sunday** — Set up a test environment on the new server with a copy of the app. Debug session begins.
-- **Sunday, during debugging** — Confirmed that only multipart upload requests fail. All other request types succeed.
-- **Sunday, key insight** — Compared response headers. Old server: HTTP/1.1. New server: HTTP/2.
-- **Sunday, fix attempt** — Disabled HTTP/2 in Nginx configuration. Upload test on test environment succeeded.
-- **Sunday night** — Re-migrated the HR app to the new server with HTTP/2 disabled. Verified with live test.
-- **Monday morning** — Followed up with customer. Shift-start working. Issue resolved.
+- **H-0: Migration completed.** HR app moved to new server (Ubuntu 24.04, Nginx). Manual smoke test passed.
+- **H+2: Customer reports shift-start failure.** Loading spinner stuck on file upload. Switched HR app back to old server — customer could work again within minutes.
+- **H+3: Debugging begins.** Set up test environment on new server. Confirmed multipart uploads fail silently while all other request types succeed.
+- **H+3, key insight:** Compared response headers. Old server: HTTP/1.1. New server: HTTP/2. External research confirms known gap between legacy Angular/Ionic HTTP clients and HTTP/2 multipart handling.
+- **H+4: Fix confirmed.** Disabled HTTP/2 on Nginx test config. Upload succeeded.
+- **H+5: Re-migration completed.** HR app moved back to new server with HTTP/2 disabled. Verified with live test.
+- **H+12h: Customer follow-up.** Shift-start working. No further issues.
 
 ## Experiments
 
