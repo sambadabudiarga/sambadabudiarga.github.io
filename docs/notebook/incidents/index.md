@@ -4,4 +4,5 @@ Production incidents, arranged by category. Each incident documents the full inv
 
 ## Categories
 
+- [Applications](/notebook/incidents/applications/) — 1 incident
 - [Infrastructure](/notebook/incidents/infrastructure/) — 1 incident
