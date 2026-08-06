@@ -163,7 +163,12 @@ category: documentation
 - Remove or replace any customer-identifying information, credentials, and secrets.
 - Replace real hostnames with placeholders where they are not essential to the lesson.
 - Do not publish internal-only business context.
-- When in doubt, redact.
+- **Generalize or omit specific product names** that can be traced back to the current employer (e.g., "LogixOne Chat" → "an internal chat application").
+- **Anonymize employer references** unless the content is purely generic technical knowledge. When employer context adds value, generalize (e.g., "a SaaS company" instead of the company name) or confirm disclosure is acceptable.
+- **Cost figures** — round or generalize (e.g., "~45%" rather than exact percentages, or "significant cost reduction" instead of a number).
+- **Timeline details** — avoid publishing specific downtime dates in combination with employer or product names.
+- **When in doubt, redact.** If a fact adds no technical or educational value and is employer-identifying, leave it out.
+- **Before first public push**, review all commit history. Consider squashing commits to remove internal names from git history.
 
 ## Lessons Learned Writing Rules
 
