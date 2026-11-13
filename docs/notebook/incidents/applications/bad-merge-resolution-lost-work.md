@@ -1,7 +1,7 @@
 ---
 title: Bad Merge Resolution — The Conflict Was Fixed, the Code Was Not
 summary: One developer resolved a large merge conflict against the integration branch without checking whose code he was overwriting. Two colleagues' completed work was silently reverted, and roughly a third of it came back as bugs. Git recorded nothing unusual, because nothing unusual happened — the resolution commit was perfectly valid.
-date: 2026-11-13
+date: 2026-03-10
 tags:
   - git
   - merge-conflict

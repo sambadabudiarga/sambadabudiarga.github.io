@@ -1,7 +1,7 @@
 ---
 title: Layered Redis Failure — BullMQ and the ACL That Took Four Fixes
 summary: Adding BullMQ to a Node.js application produced one production symptom and four independent causes — a hardcoded localhost, a config with no credential path, two separate Redis initializers, and an ACL user missing one permission. Each fix looked final. None of them was.
-date: 2026-11-13
+date: 2026-07-15
 tags:
   - redis
   - bullmq

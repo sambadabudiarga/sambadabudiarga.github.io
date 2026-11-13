@@ -1,7 +1,7 @@
 ---
 title: DIY Replication — SQL Server 2005 Back Into 2000
 summary: A retail deployment running VB6 on SQL Server 2000 could no longer be installed on Windows 10 and 11. Moving the stores to SQL Server 2005 fixed that — but native replication only worked in one direction, so the other direction became a queue table, three PHP scripts, and a folder of JSON files. It still runs.
-date: 2026-11-13
+date: 2024-03-15
 tags:
   - sql-server
   - replication
