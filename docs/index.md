@@ -22,10 +22,6 @@ A collection of production investigations, engineering notes, runbooks, and less
 
 - [Incident Library](/notebook/incidents/) — Full investigations with timeline, evidence, root cause, and prevention.
 - [Case Studies](/notebook/case-studies/) — Long-form engineering reports covering migrations, observability builds, and large-scale debugging.
-- [Technical Notes](/notebook/notes/) — Explanations of how things work. Not incident-specific.
-- [Runbooks](/notebook/runbooks/) — Operational checklists for deployment, recovery, rollback, and escalation.
-- [Architecture Notes](/notebook/architecture/) — System design documentation and decision records.
-- [Documentation Samples](/notebook/documentation/) — Examples of engineering documents: incident reports, migration plans, release notes.
 
 ---
 
